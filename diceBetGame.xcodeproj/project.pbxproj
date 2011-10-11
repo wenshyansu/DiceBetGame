@@ -1,0 +1,334 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18CE6393140BD71600B59B6A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18CE6392140BD71600B59B6A /* UIKit.framework */; };
+		18CE6395140BD71600B59B6A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18CE6394140BD71600B59B6A /* Foundation.framework */; };
+		18CE6397140BD71600B59B6A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18CE6396140BD71600B59B6A /* CoreGraphics.framework */; };
+		18CE639D140BD71700B59B6A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18CE639B140BD71700B59B6A /* InfoPlist.strings */; };
+		18CE63A0140BD71700B59B6A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CE639F140BD71700B59B6A /* main.m */; };
+		18CE63A3140BD71700B59B6A /* diceBetGameAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CE63A2140BD71700B59B6A /* diceBetGameAppDelegate.m */; };
+		18CE63A6140BD71900B59B6A /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18CE63A4140BD71900B59B6A /* MainWindow.xib */; };
+		18CE63A9140BD71A00B59B6A /* diceBetGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CE63A8140BD71A00B59B6A /* diceBetGameViewController.m */; };
+		18CE63AC140BD71B00B59B6A /* diceBetGameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18CE63AA140BD71B00B59B6A /* diceBetGameViewController.xib */; };
+		18CE63BB140BD73A00B59B6A /* dice1.png in Resources */ = {isa = PBXBuildFile; fileRef = 18CE63B2140BD73A00B59B6A /* dice1.png */; };
+		18CE63BC140BD73A00B59B6A /* dice2.png in Resources */ = {isa = PBXBuildFile; fileRef = 18CE63B3140BD73A00B59B6A /* dice2.png */; };
+		18CE63BD140BD73A00B59B6A /* dice3.png in Resources */ = {isa = PBXBuildFile; fileRef = 18CE63B4140BD73A00B59B6A /* dice3.png */; };
+		18CE63BE140BD73A00B59B6A /* dice4.png in Resources */ = {isa = PBXBuildFile; fileRef = 18CE63B5140BD73A00B59B6A /* dice4.png */; };
+		18CE63BF140BD73A00B59B6A /* dice5.png in Resources */ = {isa = PBXBuildFile; fileRef = 18CE63B6140BD73A00B59B6A /* dice5.png */; };
+		18CE63C0140BD73A00B59B6A /* dice6.png in Resources */ = {isa = PBXBuildFile; fileRef = 18CE63B7140BD73A00B59B6A /* dice6.png */; };
+		18CE63C1140BD73A00B59B6A /* diceChip100.png in Resources */ = {isa = PBXBuildFile; fileRef = 18CE63B8140BD73A00B59B6A /* diceChip100.png */; };
+		18CE63C2140BD73A00B59B6A /* diceTable.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 18CE63B9140BD73A00B59B6A /* diceTable.jpg */; };
+		18CE63C3140BD73A00B59B6A /* GO.png in Resources */ = {isa = PBXBuildFile; fileRef = 18CE63BA140BD73A00B59B6A /* GO.png */; };
+		18CE63C5140BD9B400B59B6A /* dice1_57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = 18CE63C4140BD9B400B59B6A /* dice1_57x57.png */; };
+		18CE63CA140BE3D300B59B6A /* betBar.png in Resources */ = {isa = PBXBuildFile; fileRef = 18CE63C8140BE3D300B59B6A /* betBar.png */; };
+		18CE63CB140BE3D300B59B6A /* cashBar.png in Resources */ = {isa = PBXBuildFile; fileRef = 18CE63C9140BE3D300B59B6A /* cashBar.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18CE638E140BD71600B59B6A /* diceBetGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = diceBetGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18CE6392140BD71600B59B6A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		18CE6394140BD71600B59B6A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		18CE6396140BD71600B59B6A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		18CE639A140BD71700B59B6A /* diceBetGame-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "diceBetGame-Info.plist"; sourceTree = "<group>"; };
+		18CE639C140BD71700B59B6A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		18CE639E140BD71700B59B6A /* diceBetGame-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "diceBetGame-Prefix.pch"; sourceTree = "<group>"; };
+		18CE639F140BD71700B59B6A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18CE63A1140BD71700B59B6A /* diceBetGameAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = diceBetGameAppDelegate.h; sourceTree = "<group>"; };
+		18CE63A2140BD71700B59B6A /* diceBetGameAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = diceBetGameAppDelegate.m; sourceTree = "<group>"; };
+		18CE63A5140BD71900B59B6A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		18CE63A7140BD71900B59B6A /* diceBetGameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = diceBetGameViewController.h; sourceTree = "<group>"; };
+		18CE63A8140BD71A00B59B6A /* diceBetGameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = diceBetGameViewController.m; sourceTree = "<group>"; };
+		18CE63AB140BD71B00B59B6A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/diceBetGameViewController.xib; sourceTree = "<group>"; };
+		18CE63B2140BD73A00B59B6A /* dice1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dice1.png; sourceTree = "<group>"; };
+		18CE63B3140BD73A00B59B6A /* dice2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dice2.png; sourceTree = "<group>"; };
+		18CE63B4140BD73A00B59B6A /* dice3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dice3.png; sourceTree = "<group>"; };
+		18CE63B5140BD73A00B59B6A /* dice4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dice4.png; sourceTree = "<group>"; };
+		18CE63B6140BD73A00B59B6A /* dice5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dice5.png; sourceTree = "<group>"; };
+		18CE63B7140BD73A00B59B6A /* dice6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dice6.png; sourceTree = "<group>"; };
+		18CE63B8140BD73A00B59B6A /* diceChip100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = diceChip100.png; sourceTree = "<group>"; };
+		18CE63B9140BD73A00B59B6A /* diceTable.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = diceTable.jpg; sourceTree = "<group>"; };
+		18CE63BA140BD73A00B59B6A /* GO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GO.png; sourceTree = "<group>"; };
+		18CE63C4140BD9B400B59B6A /* dice1_57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dice1_57x57.png; sourceTree = "<group>"; };
+		18CE63C6140BD9CF00B59B6A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		18CE63C8140BE3D300B59B6A /* betBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = betBar.png; sourceTree = "<group>"; };
+		18CE63C9140BE3D300B59B6A /* cashBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cashBar.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18CE638B140BD71600B59B6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18CE6393140BD71600B59B6A /* UIKit.framework in Frameworks */,
+				18CE6395140BD71600B59B6A /* Foundation.framework in Frameworks */,
+				18CE6397140BD71600B59B6A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18CE6383140BD71600B59B6A = {
+			isa = PBXGroup;
+			children = (
+				18CE63C8140BE3D300B59B6A /* betBar.png */,
+				18CE63C9140BE3D300B59B6A /* cashBar.png */,
+				18CE63C6140BD9CF00B59B6A /* Default.png */,
+				18CE63C4140BD9B400B59B6A /* dice1_57x57.png */,
+				18CE63B2140BD73A00B59B6A /* dice1.png */,
+				18CE63B3140BD73A00B59B6A /* dice2.png */,
+				18CE63B4140BD73A00B59B6A /* dice3.png */,
+				18CE63B5140BD73A00B59B6A /* dice4.png */,
+				18CE63B6140BD73A00B59B6A /* dice5.png */,
+				18CE63B7140BD73A00B59B6A /* dice6.png */,
+				18CE63B8140BD73A00B59B6A /* diceChip100.png */,
+				18CE63B9140BD73A00B59B6A /* diceTable.jpg */,
+				18CE63BA140BD73A00B59B6A /* GO.png */,
+				18CE6398140BD71700B59B6A /* diceBetGame */,
+				18CE6391140BD71600B59B6A /* Frameworks */,
+				18CE638F140BD71600B59B6A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18CE638F140BD71600B59B6A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18CE638E140BD71600B59B6A /* diceBetGame.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18CE6391140BD71600B59B6A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18CE6392140BD71600B59B6A /* UIKit.framework */,
+				18CE6394140BD71600B59B6A /* Foundation.framework */,
+				18CE6396140BD71600B59B6A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		18CE6398140BD71700B59B6A /* diceBetGame */ = {
+			isa = PBXGroup;
+			children = (
+				18CE63A1140BD71700B59B6A /* diceBetGameAppDelegate.h */,
+				18CE63A2140BD71700B59B6A /* diceBetGameAppDelegate.m */,
+				18CE63A4140BD71900B59B6A /* MainWindow.xib */,
+				18CE63A7140BD71900B59B6A /* diceBetGameViewController.h */,
+				18CE63A8140BD71A00B59B6A /* diceBetGameViewController.m */,
+				18CE63AA140BD71B00B59B6A /* diceBetGameViewController.xib */,
+				18CE6399140BD71700B59B6A /* Supporting Files */,
+			);
+			path = diceBetGame;
+			sourceTree = "<group>";
+		};
+		18CE6399140BD71700B59B6A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18CE639A140BD71700B59B6A /* diceBetGame-Info.plist */,
+				18CE639B140BD71700B59B6A /* InfoPlist.strings */,
+				18CE639E140BD71700B59B6A /* diceBetGame-Prefix.pch */,
+				18CE639F140BD71700B59B6A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18CE638D140BD71600B59B6A /* diceBetGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18CE63AF140BD71B00B59B6A /* Build configuration list for PBXNativeTarget "diceBetGame" */;
+			buildPhases = (
+				18CE638A140BD71600B59B6A /* Sources */,
+				18CE638B140BD71600B59B6A /* Frameworks */,
+				18CE638C140BD71600B59B6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = diceBetGame;
+			productName = diceBetGame;
+			productReference = 18CE638E140BD71600B59B6A /* diceBetGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18CE6385140BD71600B59B6A /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 18CE6388140BD71600B59B6A /* Build configuration list for PBXProject "diceBetGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 18CE6383140BD71600B59B6A;
+			productRefGroup = 18CE638F140BD71600B59B6A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18CE638D140BD71600B59B6A /* diceBetGame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18CE638C140BD71600B59B6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18CE639D140BD71700B59B6A /* InfoPlist.strings in Resources */,
+				18CE63A6140BD71900B59B6A /* MainWindow.xib in Resources */,
+				18CE63AC140BD71B00B59B6A /* diceBetGameViewController.xib in Resources */,
+				18CE63BB140BD73A00B59B6A /* dice1.png in Resources */,
+				18CE63BC140BD73A00B59B6A /* dice2.png in Resources */,
+				18CE63BD140BD73A00B59B6A /* dice3.png in Resources */,
+				18CE63BE140BD73A00B59B6A /* dice4.png in Resources */,
+				18CE63BF140BD73A00B59B6A /* dice5.png in Resources */,
+				18CE63C0140BD73A00B59B6A /* dice6.png in Resources */,
+				18CE63C1140BD73A00B59B6A /* diceChip100.png in Resources */,
+				18CE63C2140BD73A00B59B6A /* diceTable.jpg in Resources */,
+				18CE63C3140BD73A00B59B6A /* GO.png in Resources */,
+				18CE63C5140BD9B400B59B6A /* dice1_57x57.png in Resources */,
+				18CE63CA140BE3D300B59B6A /* betBar.png in Resources */,
+				18CE63CB140BE3D300B59B6A /* cashBar.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18CE638A140BD71600B59B6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18CE63A0140BD71700B59B6A /* main.m in Sources */,
+				18CE63A3140BD71700B59B6A /* diceBetGameAppDelegate.m in Sources */,
+				18CE63A9140BD71A00B59B6A /* diceBetGameViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		18CE639B140BD71700B59B6A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18CE639C140BD71700B59B6A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		18CE63A4140BD71900B59B6A /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18CE63A5140BD71900B59B6A /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		18CE63AA140BD71B00B59B6A /* diceBetGameViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18CE63AB140BD71B00B59B6A /* en */,
+			);
+			name = diceBetGameViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18CE63AD140BD71B00B59B6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18CE63AE140BD71B00B59B6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		18CE63B0140BD71B00B59B6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "diceBetGame/diceBetGame-Prefix.pch";
+				INFOPLIST_FILE = "diceBetGame/diceBetGame-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		18CE63B1140BD71B00B59B6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "diceBetGame/diceBetGame-Prefix.pch";
+				INFOPLIST_FILE = "diceBetGame/diceBetGame-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18CE6388140BD71600B59B6A /* Build configuration list for PBXProject "diceBetGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18CE63AD140BD71B00B59B6A /* Debug */,
+				18CE63AE140BD71B00B59B6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18CE63AF140BD71B00B59B6A /* Build configuration list for PBXNativeTarget "diceBetGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18CE63B0140BD71B00B59B6A /* Debug */,
+				18CE63B1140BD71B00B59B6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18CE6385140BD71600B59B6A /* Project object */;
+}
